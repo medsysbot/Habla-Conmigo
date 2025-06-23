@@ -1,6 +1,6 @@
 // static/js/app.js
 
-// Lista de pictogramas reales en tu proyecto
+// Lista de pictogramas reales
 const pictogramas = [
   {
     nombre: "Baño",
@@ -26,7 +26,12 @@ function mostrarPictogramas() {
       <img src="${pictograma.imagen}" alt="${pictograma.nombre}" />
       <span>${pictograma.nombre}</span>
     `;
-    btn.onclick = () => alert(`Elegiste: ${pictograma.nombre}`);
+    btn.onclick = () => {
+      // Voz sintética accesible
+      const frase = pictograma.nombre;
+      const utter = new window.SpeechSynthesisUtterance(frase);
+      window.speechSynthesis.speak(utter);
+    };
     zona.appendChild(btn);
   });
 }

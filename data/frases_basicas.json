@@ -1,5 +1,5 @@
 [
-  {"texto": "Hola", "imagen": "/static/pictogramas/hola.svg"},
-  {"texto": "Tengo hambre", "imagen": "/static/pictogramas/hambre.svg"},
-  {"texto": "Quiero ir al baño", "imagen": "/static/pictogramas/bano.svg"}
+  {"texto": "Hola", "imagen": "pictogramas/hola.svg"},
+  {"texto": "Tengo hambre", "imagen": "pictogramas/hambre.svg"},
+  {"texto": "Quiero ir al baño", "imagen": "pictogramas/bano.svg"}
 ]

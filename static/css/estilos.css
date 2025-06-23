@@ -23,12 +23,12 @@ h1 {
 
 .pictograma-btn {
   width: 140px;
-  height: 140px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   background: #003366;
   color: #fff;
   border: none;
@@ -36,12 +36,23 @@ h1 {
   cursor: pointer;
   box-shadow: 0 2px 12px #0002;
   transition: transform 0.2s;
+  margin-bottom: 1rem;
 }
 
 .pictograma-btn img {
   max-width: 70px;
   max-height: 70px;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.pictograma-texto {
+  font-size: 1.12rem;
+  color: #fff;
+  background: rgba(0,0,0,0.08);
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+  margin-top: 0.2rem;
+  letter-spacing: 0.01em;
 }
 
 .pictograma-btn:focus, .pictograma-btn:hover {

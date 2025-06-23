@@ -5,38 +5,13 @@
   <meta charset="UTF-8">
   <title>Habla Conmigo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { font-family: sans-serif; text-align: center; padding: 20px; background: #f7f7f7; }
-    h1 { font-size: 2em; }
-    .pictograma { display: inline-block; margin: 10px; cursor: pointer; }
-    .pictograma img { width: 100px; height: 100px; border-radius: 10px; }
-    .pictograma span { display: block; margin-top: 5px; }
-  </style>
+  <link rel="stylesheet" href="/static/css/estilos.css">
 </head>
 <body>
   <h1>🗣️ Habla Conmigo</h1>
 
-  <div id="zona-pictogramas">
-    <div class="pictograma" onclick="hablar('Hola')">
-      <img src="https://static.arasaac.org/pictograms/4417/4417.png" alt="Hola">
-      <span>Hola</span>
-    </div>
-    <div class="pictograma" onclick="hablar('Tengo hambre')">
-      <img src="https://static.arasaac.org/pictograms/13400/13400.png" alt="Tengo hambre">
-      <span>Tengo hambre</span>
-    </div>
-    <div class="pictograma" onclick="hablar('Quiero ir al baño')">
-      <img src="https://static.arasaac.org/pictograms/8721/8721.png" alt="Quiero ir al baño">
-      <span>Ir al baño</span>
-    </div>
-  </div>
+  <div id="zona-pictogramas"></div>
 
-  <script>
-    function hablar(texto) {
-      const msg = new SpeechSynthesisUtterance(texto);
-      msg.lang = 'es-ES';
-      window.speechSynthesis.speak(msg);
-    }
-  </script>
+  <script src="/static/js/app.js"></script>
 </body>
 </html>

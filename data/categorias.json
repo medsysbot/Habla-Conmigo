@@ -1,4 +1,4 @@
 [
-  {"id": 1, "nombre": "Necesidades"},
-  {"id": 2, "nombre": "Emociones"}
+  {"id": 1, "nombre": "Necesidades", "color": "#FFD700"},
+  {"id": 2, "nombre": "Emociones", "color": "#00BFFF"}
 ]

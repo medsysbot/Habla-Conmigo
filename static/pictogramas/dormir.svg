@@ -3,4 +3,5 @@
   <ellipse cx="48" cy="54" rx="24" ry="16" fill="#f2eefd"/>
   <ellipse cx="48" cy="54" rx="10" ry="6" fill="#ccccff"/>
   <rect x="38" y="34" width="20" height="18" rx="8" fill="#a7a6c7"/>
-  <path d="M60 34 Q66 26 75 34" stroke="#a7a6c7" stroke-wi
+  <path d="M60 34 Q66 26 75 34" stroke="#a7a6c7" stroke-width="3" fill="none"/>
+</svg>

@@ -1,8 +1,16 @@
 const pictogramas = [
   { nombre: "Baño", imagen: "/static/pictogramas/bano.svg" },
   { nombre: "Hola", imagen: "/static/pictogramas/hola.svg" },
-  { nombre: "Tengo hambre", imagen: "/static/pictogramas/hambre.svg" }
+  { nombre: "Tengo hambre", imagen: "/static/pictogramas/hambre.svg" },
+  { nombre: "Tengo sed", imagen: "/static/pictogramas/sed.svg" },
+  { nombre: "Dormir", imagen: "/static/pictogramas/dormir.svg" },
+  { nombre: "Jugar", imagen: "/static/pictogramas/jugar.svg" },
+  { nombre: "Me duele", imagen: "/static/pictogramas/dolor.svg" },
+  { nombre: "Triste", imagen: "/static/pictogramas/triste.svg" },
+  { nombre: "Contento", imagen: "/static/pictogramas/contento.svg" }
 ];
+
+// ... (el resto de tu código JS queda igual)
 
 let fraseActual = [];
 
